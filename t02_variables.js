@@ -1,13 +1,22 @@
 /****************************
-This is a block comment.
-Put your header comment here!
+Name of Task: Introduction
 ****************************/
 console.log("Running t01_introduction.js")
 console.log("Hello!")
 
-let name = "Jed"
+// Variables
+let username = "Jed"
 let age = 15;
-let isstudent = true;
+let year= 2025;
+let pocketMoney = 20;
 
-// This is a single line comment
+/****************************
+Main Code:
+****************************/
+console.log("Hi " + username )
+console.log("As of " + year + " you are " + age + " years old")
+console.log("You have " + pocketMoney + " dollars")
 
+/****************************
+Functions:
+****************************/
