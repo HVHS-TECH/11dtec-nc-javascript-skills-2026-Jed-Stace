@@ -18,7 +18,7 @@ Main Code:
 const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
-console.log("Hi " + username )
+OUTPUT.innerHTML += ("Hi " + username )
 console.log("As of " + year + " you are " + age + " years old")
 console.log("You were born in " + (year - age))
 console.log("In 10 years you will be " + newAge + " years old")
