@@ -22,7 +22,7 @@ OUTPUT.innerHTML += ("Hi " + username )
 OUTPUT.innerHTML += ("As of " + year + " you are " + age + " years old")
 OUTPUT.innerHTML += ("You were born in " + (year - age))
 OUTPUT.innerHTML += ("In 10 years you will be " + newAge + " years old")
-OUTPUT.innwe("You have " + pocketMoney + " dollars")
+OUTPUT.innerHTML += ("You have " + pocketMoney + " dollars")
 console.log("You spend half of your money, now you have " + halfMoney)
 console.log("Then you get $3, now you have " + (halfMoney + 3))
 /****************************
