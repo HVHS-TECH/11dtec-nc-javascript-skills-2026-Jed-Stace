@@ -15,6 +15,9 @@ let halfMoney = pocketMoney / 2;
 /****************************
 Main Code:
 ****************************/
+const OUTPUT = document.getElementById("JavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+
 console.log("Hi " + username )
 console.log("As of " + year + " you are " + age + " years old")
 console.log("You were born in " + (year - age))
