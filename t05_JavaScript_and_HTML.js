@@ -18,10 +18,10 @@ Main Code:
 const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
-OUTPUT.innerHTML += ("Hi " + username )
-OUTPUT.innerHTML += ("As of " + year + " you are " + age + " years old")
-OUTPUT.innerHTML += ("You were born in " + (year - age))
-OUTPUT.innerHTML += ("In 10 years you will be " + newAge + " years old")
+OUTPUT.innerHTML += ("Hi " + username + <br>)
+OUTPUT.innerHTML += ("As of " + year + " you are " + age + " years old" + <br>)
+OUTPUT.innerHTML += ("You were born in " + (year - age) + <br>)
+OUTPUT.innerHTML += ("In 10 years you will be " + newAge + " years old" )
 OUTPUT.innerHTML += ("You have " + pocketMoney + " dollars")
 OUTPUT.innerHTML += ("You spend half of your money, now you have " + halfMoney)
 OUTPUT.innerHTML += ("Then you get $3, now you have " + (halfMoney + 3))
