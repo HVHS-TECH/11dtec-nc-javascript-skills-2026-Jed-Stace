@@ -23,8 +23,8 @@ OUTPUT.innerHTML += ("As of " + year + " you are " + age + " years old")
 OUTPUT.innerHTML += ("You were born in " + (year - age))
 OUTPUT.innerHTML += ("In 10 years you will be " + newAge + " years old")
 OUTPUT.innerHTML += ("You have " + pocketMoney + " dollars")
-console.log("You spend half of your money, now you have " + halfMoney)
-console.log("Then you get $3, now you have " + (halfMoney + 3))
+OUTPUT.innerHTML += ("You spend half of your money, now you have " + halfMoney)
+OUTPUT.innerHTML += ("Then you get $3, now you have " + (halfMoney + 3))
 /****************************
 Functions:
 
