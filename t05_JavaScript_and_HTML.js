@@ -18,7 +18,7 @@ Main Code:
 const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
-OUTPUT.innerHTML += ("Hi " + username + <br></br>);
+OUTPUT.innerHTML += ("Hi " + username + <br></br>)
 OUTPUT.innerHTML += ("As of " + year + " you are " + age + " years old" + <br></br>)
 OUTPUT.innerHTML += ("You were born in " + (year - age) + <br></br>)
 OUTPUT.innerHTML += ("In 10 years you will be " + newAge + " years old" + <br></br>)
