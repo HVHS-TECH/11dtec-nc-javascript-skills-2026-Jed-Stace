@@ -1,7 +1,7 @@
 /****************************
-Name of Task: Functions
+Name of Task: Functions and Parameters
 ****************************/
-console.log("Running t06_functions.js")
+console.log("Running t07_functions_parameters.js")
 console.log("Hello!")
 
 // Variables
