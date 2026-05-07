@@ -34,3 +34,7 @@ Functions:
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>"
 }
+
+function displayProduct(_name, _Price){
+    OUTPUT.innerHTML += "<p>"
+}
