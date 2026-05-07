@@ -15,7 +15,7 @@ let halfMoney = pocketMoney / 2;
 /****************************
 Main Code:
 ****************************/
-const OUTPUT = document.getElementById("JavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
 OUTPUT.innerHTML += ("<p>Hi " + username + "</p>")
@@ -36,7 +36,7 @@ function writeLine(){
 }
 
 function displayProduct(_name, _price){
-    OUTPUT.innerHTML += "<p>" + _name + " ;$" + _price + "</p>"
+    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
 
 displayProduct("Chocolate bar", "4")
