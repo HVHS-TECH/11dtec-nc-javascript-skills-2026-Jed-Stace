@@ -36,5 +36,5 @@ function writeLine(){
 }
 
 function displayProduct(_name, _price){
-    OUTPUT.innerHTML += "<p>"
+    OUTPUT.innerHTML += "<p> + _name + " ;$" + _price + </p>"
 }
