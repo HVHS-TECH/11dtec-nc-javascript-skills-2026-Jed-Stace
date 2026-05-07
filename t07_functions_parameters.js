@@ -35,6 +35,6 @@ function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>"
 }
 
-function displayProduct(_name, _Price){
+function displayProduct(_name, _price){
     OUTPUT.innerHTML += "<p>"
 }
