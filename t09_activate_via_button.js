@@ -1,7 +1,7 @@
 /****************************
-Name of Task: Functions and Parameters
+Name of Task: Activate via Button
 ****************************/
-console.log("Running t07_functions_parameters.js")
+console.log("Running t09_activate_via_button.js")
 console.log("Hello!")
 
 // Variables
