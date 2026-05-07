@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
 const output = document.getElementById("output");
 
 
@@ -19,4 +18,4 @@ function functionTwo() {
 }
 
 output.innerHTML += "end: "+myVar+"<br>";
-});
+
