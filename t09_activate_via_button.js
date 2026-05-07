@@ -31,6 +31,13 @@ Functions:
 
 ****************************/
 
+function start(){
+    spaceForJavaScriptOutput.innerHTML = "<h2>Added by JavaScript</h2>";
+    spaceForJavaScriptOutput.innerHTML += ("<p>Hi " + username + "</p>")
+    answer = year - age
+    spaceForJavaScriptOutput.innerHTML += ("<p>You were born in " + answer + "</p>")
+}
+
 function writeLine(){
     OUTPUT.innerHTML += "<p>Less code matters</p>"
 }
