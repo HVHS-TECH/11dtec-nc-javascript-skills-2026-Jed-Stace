@@ -13,7 +13,7 @@ function functionOne() {
 
 functionTwo();
 function functionTwo() {
-  var myVar = 2;
+  myVar = 2;
   output.innerHTML += "functionTwo: "+myVar+"<br>";
 }
 
