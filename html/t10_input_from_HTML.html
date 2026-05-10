@@ -20,7 +20,12 @@
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <button onClick="start()">START</button>
-  
+
+  <form onsubmit="return false;">
+    <label for="formName">Name:</label>
+    <input type="text" id="nameField" name="formName">
+    <input type="submit" onClick=getFormInput()>
+  </form>
 
   <div id="spaceForJavaScriptOutput">
 
