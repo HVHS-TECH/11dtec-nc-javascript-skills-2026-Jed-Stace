@@ -1,7 +1,7 @@
 /****************************
-Name of Task: Input from HTML
+Name of Task: Data Types
 ****************************/
-console.log("Running t10_input_from_HTML.js")
+console.log("Running t11_data_types.js")
 console.log("Hello!")
 
 // Variables
