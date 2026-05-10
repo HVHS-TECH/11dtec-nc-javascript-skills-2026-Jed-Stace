@@ -1,7 +1,7 @@
 /****************************
-Name of Task: Activate via Button
+Name of Task: Input from HTML
 ****************************/
-console.log("Running t09_activate_via_button.js")
+console.log("Running t10_input_from_HTML.js")
 console.log("Hello!")
 
 // Variables
