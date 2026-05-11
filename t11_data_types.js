@@ -55,3 +55,5 @@ function getFormInput(){
     const ageField = document.getElementById("ageField");
     let userAge = Number(ageField.value);
 }
+
+age = userAge;
