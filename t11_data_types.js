@@ -53,5 +53,5 @@ function getFormInput(){
 
 function getFormInput(){
     const ageField = document.getElementById("ageField");
-    let userAge = Number(Age_FIELD.value);
+    let userAge = Number(ageField.value);
 }
