@@ -17,7 +17,7 @@ Main Code:
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-writeLine()
+start()
 /****************************
 Functions:
 
