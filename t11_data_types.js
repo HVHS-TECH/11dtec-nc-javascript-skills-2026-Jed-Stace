@@ -52,8 +52,15 @@ function getFormInput(){
 */
 
 function getFormInput(){
-    const ageField = document.getElementById("ageField");
-    let userAge = Number(ageField.value);
+    let userAge = Number(document.getElementById("ageField").value);
+    let userMoney = Number(document.getElementById("moneyField").value);
+
+    age = userAge;
+    pocketMoney = userMoney;
+    halfMoney = pocketMoney / 2;
+    newAge = age + 10;
+
+    start();
 }
 
-age = userAge;
+
