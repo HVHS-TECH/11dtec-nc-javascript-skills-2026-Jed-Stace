@@ -61,14 +61,19 @@ function getFormInput(){
     newAge = age + 10;
 
     start();
+
+    if (pocketMoney >= 4){
+    OUTPUT.innerHTML += "<p>You can afford a chocolate bar</p>"
 }
 
-if (pocketMoney >= 4){
-    console.log("You can afford a chocolate bar")
+if (pocketMoney <= 3.99){
+    OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar brokie</p>"
 }
 
-if (pocketMoney <= 3){
-    console.log("You cannot afford a chocolate bar brokie")
 }
+
+
+
+
 
 
