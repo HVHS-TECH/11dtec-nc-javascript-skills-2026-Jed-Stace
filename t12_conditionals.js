@@ -66,7 +66,7 @@ function getFormInput(){
     OUTPUT.innerHTML += "<p>You can afford a chocolate bar</p>"
 }
 
-if (pocketMoney <= 3.99){
+    if (pocketMoney <= 3.99){
     OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar brokie</p>"
 }
 
