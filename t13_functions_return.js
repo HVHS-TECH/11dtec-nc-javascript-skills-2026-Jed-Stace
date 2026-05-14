@@ -69,7 +69,7 @@ function calculateChange(_money, _price){
 }
 
 let changeFromChocolate = calculateChange(pocketMoney, 4);
-OUTPUT.innerHTML += "<p>If you buy a chocolate bar, you will have $" + changeFromChocolate + " left</p>"
+OUTPUT.innerHTML += "<p>If you buy a chocolate bar, you will get $" + changeFromChocolate + " change.</p>"
 
 }
 
