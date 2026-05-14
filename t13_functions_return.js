@@ -69,3 +69,4 @@ function calculateChange(_money, _price){
     let change = _money - _price;
     return change;
 }
+
