@@ -63,8 +63,6 @@ function getFormInput(){
     OUTPUT.innerHTML += "<p>You cannot afford a chocolate bar brokie</p>"
 }
 
-}
-
 function calculateChange(_money, _price){
     let change = _money - _price;
     return change;
@@ -72,3 +70,6 @@ function calculateChange(_money, _price){
 
 let changeFromChocolate = calculateChange(pocketMoney, 4);
 OUTPUT.innerHTML += "<p>If you buy a chocolate bar, you will have $" + changeFromChocolate + " left</p>"
+
+}
+
