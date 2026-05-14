@@ -73,3 +73,8 @@ OUTPUT.innerHTML += "<p>If you buy a chocolate bar, you will get $" + changeFrom
 
 }
 
+let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
+
+let choice = CHOOSE_FIELD.value;
+
+OUTPUT.innerHTML += "You chose: "+classArray[choice]"<br>";
