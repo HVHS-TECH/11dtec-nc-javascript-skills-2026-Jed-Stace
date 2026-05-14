@@ -65,6 +65,6 @@ function getFormInput(){
 
 }
 
-function calculatePocketMoney(_money) {
+function calculateChange(_money, _price){
     let halfMoney = _money / 2;
 }
