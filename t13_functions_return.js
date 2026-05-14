@@ -65,4 +65,6 @@ function getFormInput(){
 
 }
 
-u
+function calculatePocketMoney(_money) {
+    
+}
