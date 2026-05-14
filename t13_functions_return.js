@@ -66,5 +66,6 @@ function getFormInput(){
 }
 
 function calculateChange(_money, _price){
-    let halfMoney = _money / 2;
+    let change = _money - _price;
+    return change;
 }
