@@ -77,4 +77,4 @@ let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is prett
 
 let choice = CHOOSE_FIELD.value;
 
-OUTPUT.innerHTML += "You chose: "+classArray[choice]"<br>";
+OUTPUT.innerHTML += "You chose: " + classArray[choice] + "<br>";
