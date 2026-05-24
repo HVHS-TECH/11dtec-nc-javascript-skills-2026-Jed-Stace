@@ -47,6 +47,7 @@ function displayProduct(_name, _price){
 function getFormInput(){
     let userAge = Number(document.getElementById("ageField").value);
     let userMoney = Number(document.getElementById("moneyField").value);
+    let userRating = Number(document.getElementById("ratingField").value);
 
     age = userAge;
     pocketMoney = userMoney;
