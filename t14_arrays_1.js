@@ -76,7 +76,7 @@ OUTPUT.innerHTML += "<p>If you buy a chocolate bar, you will get $" + changeFrom
 
 
 
-let userRating = Number(document.getElementById("").value);
+let userRating = Number(document.getElementById("ratingField").value);
     
 let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
 
