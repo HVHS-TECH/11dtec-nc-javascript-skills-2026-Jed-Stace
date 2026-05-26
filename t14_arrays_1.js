@@ -80,4 +80,4 @@ let userRating = Number(document.getElementById("ratingField").value);
     
 let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
 
-OUTPUT.innerHTML += "You chose: " + classArray[choice] + "<br>";
+OUTPUT.innerHTML += classArray[userRating - 1] + "<br>";
