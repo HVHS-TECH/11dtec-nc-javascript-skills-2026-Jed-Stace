@@ -80,6 +80,4 @@ let userRating = Number(document.getElementById("ratingField").value);
     
 let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
 
-let choice = CHOOSE_FIELD.value;
-
 OUTPUT.innerHTML += "You chose: " + classArray[choice] + "<br>";
