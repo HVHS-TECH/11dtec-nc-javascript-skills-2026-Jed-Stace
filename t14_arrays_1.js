@@ -80,5 +80,5 @@ let userRating = Number(document.getElementById("ratingField").value);
     
 let classArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"];
 
-OUTPUT.innerHTML += classArray[userRating] + "<br>";
+OUTPUT.innerHTML += +classArray[userRating]+ "<br>";
 }
