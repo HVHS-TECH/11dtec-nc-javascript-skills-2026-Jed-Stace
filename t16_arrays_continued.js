@@ -1,7 +1,7 @@
 /****************************
-Name of Task: Data Types
+Name of Task: Arrays Continued
 ****************************/
-console.log("Running t11_data_types.js")
+console.log("Running t16_arrays_continued.js")
 console.log("Hello!")
 
 // Variables
