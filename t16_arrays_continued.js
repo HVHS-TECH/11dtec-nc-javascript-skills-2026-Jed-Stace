@@ -88,4 +88,5 @@ for(let i=99; i>0; i--){
 }
 
 let userShopping = text(document.getElementById("shoppingField").value);
+
 let classArray = ["bread", "milk", "eggs", "cheese", "fruit", "vegetables", "meat", "fish", "cereal", "snacks"];
