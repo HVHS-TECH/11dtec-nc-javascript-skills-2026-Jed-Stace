@@ -89,3 +89,10 @@ for(let i=99; i>0; i--){
 
 let userShopping = text(document.getElementById("shoppingField").value);
 
+let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
+
+shoppingArray.push(userShopping);
+
+for(let i=0; i<shoppingArray.length; i++){
+    OUTPUT.innerHTML += "<p>" + "Number " + (i + 1) + ": " + shoppingArray[i] + "</p>";
+}
