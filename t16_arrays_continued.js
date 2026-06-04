@@ -11,6 +11,8 @@ let year= 2025;
 let pocketMoney = 20;
 let newAge = age + 10;
 let halfMoney = pocketMoney / 2;
+let item;
+let shoppingArray = [];
 
 /****************************
 Main Code:

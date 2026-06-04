@@ -41,8 +41,11 @@
   
   <form onsubmit="return false;">
     <label for="formShopping">Add an item to your shopping list:</label><br>
-    <input type="text" id="shoppingField" name="formShopping"><br>
-    <input type="submit" onClick=getFormInput()>
+    <input type="text" id="shoppingField" name="formShopping" placeholder="item"><br>
+    <input type="submit" onClick=getFormInput() value="Add">
+  </form>
+  <form onsubmit="return false">
+    <input type="submit" onclick=displayShopping() value="View shopping list">
   </form>
 
   <div id="spaceForJavaScriptOutput">
