@@ -92,7 +92,7 @@ for(let i=99; i>0; i--){
 
 let userShopping = Number(document.getElementById("shoppingField").value);
 
-let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
+
 
 
 function getListFormInput(){
