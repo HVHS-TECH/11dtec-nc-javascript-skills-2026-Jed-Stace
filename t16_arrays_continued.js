@@ -92,8 +92,15 @@ let userShopping = Number(document.getElementById("shoppingField").value);
 
 let shoppingArray = ["Chocolate bar", "Chips", "Drink"];
 
-shoppingArray.push(userShopping);
-
 for(let i=0; i<shoppingArray.length; i++){
     OUTPUT.innerHTML += "<p>" + "Number " + (i + 1) + ": " + shoppingArray[i] + "</p>";
 }
+
+function getListFormInput(){
+    const SHOPPING_FIELD = document.getElementById("shoppingField");
+    item = SHOPPING_FIELD.value;
+    listArray.push(item);
+    OUTPUT.innerHTML += "<p>You have added " + item + " to your shopping list</p>"
+}
+
+
