@@ -17,7 +17,7 @@ let shoppingArray = [];
 /****************************
 Main Code:
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.gecItElementById("spaceForJavaScriptOutput");
 
 start()
 /****************************
